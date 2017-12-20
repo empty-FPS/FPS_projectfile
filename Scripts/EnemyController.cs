@@ -177,6 +177,7 @@ public abstract class EnemyController : MonoBehaviour {
             enemyRotation.x = 0;
             enemyRotation.z = 0;
             transform.rotation = enemyRotation;
+        Console.WriteLine("tuiki");
         //}
     }
 }
